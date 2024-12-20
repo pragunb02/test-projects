@@ -1,0 +1,3 @@
+[submodule "zomato-frontend"]
+	path = zomato-frontend
+	url = https://github.com/pragunb02/zomato-frontend
