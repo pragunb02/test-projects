@@ -1,0 +1,3 @@
+https://www.notion.so/138dc73fd0e98083afcee700763cb6c9
+
+https://redis.io/docs/latest/develop/data-types/streams/

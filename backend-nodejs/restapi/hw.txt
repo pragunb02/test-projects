@@ -1,0 +1,24 @@
+npm init -y
+npm i express
+
+REST API (JSON REST API)
+
+GET /users - List all the users (HTML Specific data)
+
+GET /api/users - List all the users (JSON DATA)
+
+GET /api/users/1 - Get the user with id 1
+GET /api/users/2 - Get the user with id 2
+
+POST /api/users - Create new user
+
+PATCH /api/users/1 - Edit the user with id 1
+
+DELETE /api/users/1 - Delete the user with id 1
+
+
+
+browser only support `GET` Route
+
+to test `POST` Route we need to use Postman
+
