@@ -14,7 +14,7 @@ urls = [
 ]
 
 # Time interval (1 hour = 3600 seconds)
-interval = 12
+interval = 3600
 
 while True:
     for url in urls:
