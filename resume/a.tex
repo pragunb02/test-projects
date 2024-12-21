@@ -1,0 +1,341 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[utf8]{inputenc}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+% \setlist{leftmargin=*,itemsep=0.5em,topsep=0.5em}
+\input{glyphtounicode}
+ % \usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{linkblue}{rgb}{0.0, 0.0, 0.6} % Define your color here
+
+% Set link color
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    filecolor=magenta,      
+    urlcolor=myblues,
+    pdftitle={Resume},
+    pdfpagemode=FullScreen,
+    }
+    \definecolor{myblues}{HTML}{1A73E8}
+
+% Remove \urlstyle{same} if you prefer links to be colored differently than the rest of the text
+
+% Now your links should appear blue when hovered over.
+
+
+
+
+% ----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\setlength{\footskip}{4.08003pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    {\Huge \textsc{P}ragun \textsc{B}hutani} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +919729360591 ~ 
+    \href{mailto:pragunbhutani4@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{pragunbhutani4@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/pragun-bhutani-1194b9221/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}} ~ 
+    \href{https://github.com/pragunb02}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+
+    \vspace{-8pt}
+\end{center}
+% %-----------SUMMARY-----------
+% \section{Summary}
+% \begin{flushleft}
+% \small{
+% Dedicated Computer Science student with a strong foundation in full-stack development and competitive programming. Skilled in building responsive web applications using Node.js, Express, and MongoDB. Demonstrated problem-solving abilities through high rankings in coding competitions. Eager to apply analytical thinking, teamwork, and communication skills to contribute effectively to innovative software development projects.
+% }
+% \end{flushleft}
+% \vspace{-20pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+  {Jaypee Institute of Information Technology}{September 2021 -- Present}
+  {Bachelor of Technology - Computer Science, GPA 7.4}{Noida, India}
+  % \vspace{-5pt}
+  %   \resumeSubheading
+  % {Pratap Public School}{2021}
+  % {Class 12, 90.5\%}{Karnal, India}
+  %     \resumeSubheading
+  % {Pratap Public School}{2019}
+  % {Class 10, 92\%}{Karnal, India}
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+   \small{\item{
+    \textbf{Languages}{: C/C++, SQL, JavaScript}
+    %HTML/CSS%.} 
+    \\
+    \vspace{4pt}
+\textbf{Frameworks, Tools, Libraries, Databases}: Node.js, Express, MongoDB, MySQL\\ Socket.io, Git, Postman.}\\
+    \vspace{4pt}
+    \textbf{Relevant Coursework}{: Data Structures Algorithms, OOP Concepts in C++, Operating System, RDBMS.} \\
+   }
+\end{itemize}
+\vspace{-9pt}
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+
+      
+        \textbf{Meta(Facebook) Hacker Cup 2024} {$|$ \textrm{Country Rank: 133rd, Global Rank: 1072nd}} 
+        \href{https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/1716457385376261}{Certificate} \\
+        \vspace{5pt}
+        
+        \textbf{Google Code Jam Farewell} {$|$ \textrm{Country Rank: 1868th, Global Rank: 3366th}} 
+        \href{https://clist.by/account/healthypragun/resource/codingcompetitions.withgoogle.com/}{RankList} \\
+        \vspace{5pt}
+        \textbf{ICPC Kanpur-Mathura 2022 Qualifier Round} {$|$ \textrm{Country Rank: 661st, College Rank: 2nd}}
+        \href{https://codedrills.io/contests/icpc-kanpur-mathura-2022-qualifier-round/teams/30293}{RankList} \\
+        \vspace{5pt}
+        \textbf{ICPC India Preliminary 2023} {$|$ \textrm{Country Rank: 893rd, College Rank: 2nd}}
+        \href{https://codedrills.io/contests/icpc-india-preliminary-2023/teams/57291}{RankList} \\
+        \vspace{5pt}
+        \textbf{CodeChef Starter \#88} {$|$ \textrm{Country Rank: 47th, Global Rank: 50th}} \\
+       \vspace{5pt}
+        \textbf{LeetCode Weekly \#405} {$|$ \textrm{Country Rank: 24th, Global Rank: 298th}} \\
+       \vspace{5pt}
+        \textbf{Atcoder ABC Round \#364} {$|$ \textrm{Country Rank: 124th, Global Rank: 1525th}} \\
+        \vspace{5pt}
+        % \textbf{LeetCode Biweekly \#134} {$|$ \textit{Country Rank: 278th, Global Rank: 930th}} \\
+        % \vspace{2pt}
+        \textbf{CodeForces Round \#952} {$|$ \textrm{Country Rank: 394th, Global Rank: 1740th}} \\
+        \vspace{5pt}
+         \textbf{Profiles}{: 
+    \href{https://codeforces.com/profile/pragunb02}{CodeForces} (\textbf{\textcolor{myblues}{Specialist}, 1415}), 
+    \href{https://www.codechef.com/users/voidhelper}{CodeChef} (\textbf{\textcolor{myblues}{3 star}, 1763}), 
+    \href{https://leetcode.com/u/neon772/}{LeetCode} (\textbf{\textcolor{myblues}{Knight}, 2057}), 
+    \href{https://atcoder.jp/users/healthy_visitor}{AtCoder} (\textbf{\textcolor{myblues}{Green}, 1047})} \\
+       \vspace{5pt}
+        \textbf{Over 1500+ problems solved} on platforms including 
+        \href{https://codeforces.com/profile/pragunb02}{CodeForces}, 
+        \href{https://www.codechef.com/users/voidhelper}{CodeChef}, 
+        \href{https://leetcode.com/u/neon772/}{LeetCode}, 
+        \href{https://cses.fi/user/130580}{CSES}, 
+        \href{https://atcoder.jp/users/healthy_visitor}{AtCoder},
+        \href{https://www.geeksforgeeks.org/user/voidplayer/}{GFG} \\
+    }}
+    % \vspace{-3pt}
+\end{itemize}
+
+\vspace{2pt}
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+
+
+
+
+
+
+
+
+\resumeProjectHeading
+{\textbf{\underline{Multiplayer Gaming Arena} $|$ \href{https://github.com/pragunb02/MultiPlayerRPS}{Github} $|$ \href{https://nocapgaming.onrender.com/}{Website-Link}} $|$ \emph{Node.js, Express, MongoDB, Socket.io}}{Mar 2024}
+% March 2024
+\resumeItemListStart
+\vspace{4pt}
+\resumeItem{Developed a \textbf{real-time online multiplayer gaming platform} for gamers enabling them to create or join game instances with sharable passcode.}
+\vspace{4pt}
+\resumeItem{Implemented \textbf{Socket.io} for seamless real-time communication and designed \textbf{RESTful APIs} using Express.js for client-server interactions, significantly enhancing game responsiveness and player interactions.}
+\vspace{4pt}
+\resumeItem{Utilized \textbf{MongoDB} to store all game results and user information. Created interactive user dashboards with\\ \textbf{Chart.js} to visualize game history and statistics.}
+\resumeItemListEnd
+\vspace{-10pt}
+
+
+\resumeProjectHeading
+    {\textbf{\underline{Book Bazaar} $|$ \href{https://github.com/pragunb02/Final-proj}{Github} $|$ \href{https://bookbazaar-duqs.onrender.com/}{Website-Link}} $|$  \emph{Node.js, Express, MongoDB}}{Aug 2023}
+\resumeItemListStart
+    \vspace{3pt}
+     \resumeItem{Built an online marketplace for \textbf{book trading} (both buying and selling) with \textbf{Razorpay API} integration for\\ secure transactions.}
+    \vspace{3pt}
+    \resumeItem{Engineered core features including dynamic product listing and shopping cart functionality, optimized with\\ \textbf{Cloudinary API} for efficient image management.}
+    \vspace{3pt}
+    \resumeItem{Created \textbf{rating system} and \textbf{admin dashboard} to enhance user experience and streamline management processes.}
+\resumeItemListEnd
+\vspace{-10pt}
+
+
+
+\resumeProjectHeading
+    {\textbf{\underline{Sixth Sense} $|$ \href{https://github.com/pragunb02/SixthSense}{Github}} $|$ \emph{C++, OOPs, File Handling}}{Nov 2023}
+    % November 2023
+\resumeItemListStart
+\vspace{4pt}
+\resumeItem{Constructed a CLI model using \textbf{graph theory} to identify teams not getting first place in the tournament based\\ on current points and remaining match schedules for each team.}
+\vspace{4pt}
+\resumeItem{Implemented the \textbf{Edmonds-Karp} algorithm  to construct a \textbf{flow network} and calculate the maximum flow for\\ each team. This innovative approach effectively identifies teams that will not secure first place.}
+\resumeItemListEnd
+    \vspace{-10pt}
+
+
+
+% \resumeProjectHeading
+% {\textbf{\underline{MoMilk} (Dairy Matrix)} $|$ \href{https://github.com/pragunb02/Dairy-Matrix-v2}{\faGithub~v2} $|$ \href{https://github.com/pragunb02/DairyMatrix}{\faGithub~v1} $|$ \emph{Python, React.js, Node.js, Express, MySQL}}{Jan 23, Aug 24}
+% \resumeItemListStart
+% \vspace{4pt}
+% \resumeItem{Upgraded the dairy inventory system from a CLI-based (v1) to a full-stack web application (v2).}
+% \vspace{4pt}
+% \resumeItem{Enhanced v2 by implementing a \textbf{RESTful API}, real-time inventory tracking, and data visualization to improve inventory management. \textit{("v" stands for "version")}}
+% \resumeItemListEnd
+
+% \resumeProjectHeading
+%     {\textbf{\underline{Dairy Matrix} $|$ \href{https://github.com/pragunb02/DairyMatrix}{GitHub}} $|$ \emph{Python, MySQL}}{Jan 2023}
+%     % January 2023
+% \resumeItemListStart
+% \vspace{4pt}
+%    \resumeItem{Designed a dairy inventory management system with \textbf{MySQL} tables and \textbf{real-time data retrieval} using \\ \textbf{Python} and \textbf{MySQL connector}.}
+% \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+\vspace{-7pt}
+
+%-----------INVOLVEMENT-----------
+\section{Positions of Responsibility}
+\resumeSubHeadingListStart
+    \resumeSubheading{Rapid Programming Hub --\textit{\textmd{ Tech Coordinator}}}{June 2023 -- Present}{}{}
+    \vspace{-15pt}
+        \resumeItemListStart
+            \resumeItem{Organized CP contests named 'Code Rage' and 'Bid 2 Code', and prepared questions and test cases.}
+            \resumeItem{Organized practice contests on platforms like CodeForces and HackerRank, and conducted workshops on DSA and STL.}
+            % \resumeItem{Conducted online/offline sessions and workshops on competitive programming topics.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% \vfill
+%    \vspace{-7pt}
+
+% % Add the footnote-style explanation
+% \hfill % This pushes the content to the right
+% \textcolor{gray}{ % This sets the color to gray
+%   \footnotesize % This reduces the font size
+%   \textasteriskcentered : DSA - Data Structures and Algorithms, CP - Competitive Programming
+% }
+
+\end{document}

@@ -18,6 +18,7 @@ app.use((req,res,next)=>{
     req.myUserName="Pragun";
     next();
 })
+
 app.use((req,res,next)=>{
   // myUserName is accessiabLe here and later middleware 
   console.log("Hello ji Mid2",req.myUserName);
